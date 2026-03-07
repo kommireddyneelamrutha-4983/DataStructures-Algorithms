@@ -4,6 +4,7 @@ This repository contains my implementations of fundamental **Array algorithms** 
 These problems help in understanding **array manipulation, prefix sum techniques, and Kadane’s algorithm**.
 
 
+```
 Arrays
 │
 ├── Basic Array Operations
@@ -23,7 +24,7 @@ Arrays
 │
 └── Kadane's Algorithm
     └── Maximum Subarray Sum
-
+```
 #  Basic Array Operations
 
 These programs cover fundamental array manipulation techniques.
@@ -34,7 +35,7 @@ Finds the largest element present in the array.
 
 Time Complexity: O(n)
 Space Complexity: O(1)
-# Count Frequency of a Number
+#Count Frequency of a Number
 
 Counts how many times a specific number appears in the array.
 
@@ -47,7 +48,7 @@ Inserts an element at the start of the array by shifting all elements to the rig
 
 Time Complexity:O(n)
 
-# Insert at Position
+#Insert at Position
 
 Inserts an element at a given index by shifting elements.
 
@@ -71,13 +72,13 @@ Finds a value in the array and removes it.
 
 Time Complexity:O(n)
 
-# Delete All Occurrences
+#Delete All Occurrences
 
 Removes all occurrences of a specific element.
 
 Time Complexity: O(n)
 
-##Prefix Sum Problems
+# Prefix Sum Problems
 
 Prefix sum is an important technique used to answer range queries efficiently.
 
@@ -107,7 +108,7 @@ Finds the index where the sum of elements on the left equals the sum of elements
 Time Complexity: O(n)
 Space Complexity: O(1)
 
-##Kadane's Algorithm
+# Kadane's Algorithm
 
 #Maximum Subarray Sum
 
