@@ -36,10 +36,6 @@ Arrays
     └── Squares of a Sorted Array
 
 ```
-```
-└── Kadane's Algorithm
-    └── Maximum Subarray Sum
-```  
 ```    
 #  Basic Array Operations
 
