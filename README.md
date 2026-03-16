@@ -3,7 +3,7 @@
 This repository contains my implementations of fundamental Data Structures and Algorithms (DSA) problems using Java.
 The goal of this project is to strengthen problem-solving skills.
 
----
+```
 
  Topics Covered
 
@@ -34,7 +34,8 @@ Arrays
     ├── Valid Palindrome
     └── Squares of a Sorted Array
 
----
+```
+```
 
 📂 Folder Structure
 
