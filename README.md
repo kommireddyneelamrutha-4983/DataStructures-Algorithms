@@ -1,10 +1,12 @@
-# Data Structures and Algorithms – Arrays Practice 🚀
+ Data Structures and Algorithms – Java Practice
 
-This repository contains my implementations of fundamental **Array algorithms** in Java.
-These problems help in understanding **array manipulation, prefix sum techniques, and Kadane’s algorithm**.
+This repository contains my implementations of fundamental Data Structures and Algorithms (DSA) problems using Java.
+The goal of this project is to strengthen problem-solving skills.
 
+---
 
-```
+ Topics Covered
+
 Arrays
 │
 ├── Basic Array Operations
@@ -22,117 +24,98 @@ Arrays
 │   ├── Subarray Sum Equals K
 │   └── Pivot Index
 │
-└── Kadane's Algorithm
-    └── Maximum Subarray Sum
-```
-#  Basic Array Operations
+├── Kadane's Algorithm
+│   └── Maximum Subarray Sum
+│
+└── Two Pointer Technique
+    ├── Two Sum II (Sorted Array)
+    ├── Move Zeroes
+    ├── Remove Duplicates
+    ├── Valid Palindrome
+    └── Squares of a Sorted Array
 
-These programs cover fundamental array manipulation techniques.
+---
 
-#Maximum Element in Array
+📂 Folder Structure
 
-Finds the largest element present in the array.
+DataStructures-Algorithms
+│
+├── Arrays
+├── Prefix-Sum
+├── Kadane-Algorithm
+├── Two-pointer-technique
+│
+└── README.md
 
-Time Complexity: O(n)
-Space Complexity: O(1)
-#Count Frequency of a Number
+---
 
-Counts how many times a specific number appears in the array.
+ Concepts Practiced
 
-Time Complexity:O(n)
-Space Complexity: O(1)
+- Array Traversal
+- Element Insertion
+- Element Deletion
+- Prefix Sum Technique
+- Two Pointer Technique
+- Kadane's Algorithm
+- Time and Space Complexity Analysis
 
-#Insert at Beginning
+---
 
-Inserts an element at the start of the array by shifting all elements to the right.
+Algorithms Included
 
-Time Complexity:O(n)
+Prefix Sum
 
-#Insert at Position
-
-Inserts an element at a given index by shifting elements.
-
-Time Complexity:O(n)
-
-#Insert in Sorted Array
-
-Inserts an element in the correct position while maintaining sorted order.
-
-Time Complexity:O(n)
-
-#Delete at Position
-
-Deletes an element from a specific index by shifting elements left.
-
-Time Complexity: O(n)
-
-#Delete by Value
-
-Finds a value in the array and removes it.
-
-Time Complexity:O(n)
-
-#Delete All Occurrences
-
-Removes all occurrences of a specific element.
-
-Time Complexity: O(n)
-
-# Prefix Sum Problems
-
-Prefix sum is an important technique used to answer range queries efficiently.
-
-#Range Sum Query
-
-Calculates the sum of elements between two indices using prefix sum.
+Used for solving range sum queries efficiently.
 
 Formula:
+
 sum(L, R) = prefix[R] - prefix[L-1]
 
-Time Complexity:
+Time Complexity
 
-* Prefix Creation → O(n)
-* Query → O(1)
+- Prefix Creation → O(n)
+- Query → O(1)
 
-#Subarray Sum Equals K
+---
 
-Counts the number of subarrays whose sum equals **K** using **Prefix Sum + HashMap**.
+Kadane's Algorithm
 
-Time Complexity: O(n)
-Space Complexity: O(n)
-
-#Pivot Index
-
-Finds the index where the sum of elements on the left equals the sum of elements on the right.
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-
-# Kadane's Algorithm
-
-#Maximum Subarray Sum
-
-Kadane's algorithm finds the **maximum possible sum of a contiguous subarray**.
+Finds the maximum possible sum of a contiguous subarray.
 
 Example:
-Input:  [2, -1, -2, 3, 5]
-Output: 8
 
-Time Complexity: O(n)
-Space Complexity:O(1)
+Input: [2, -1, 2, 3, -5]
+Output: 6
+
+Time Complexity → O(n)
+Space Complexity → O(1)
+
+---
+
+Two Pointer Technique
+
+Used to optimize problems involving sorted arrays or searching pairs.
+
+Examples in this repository:
+
+- Two Sum II
+- Move Zeroes
+- Remove Duplicates
+- Valid Palindrome
+- Squares of Sorted Array
+
+Time Complexity → O(n)
+
+---
+
+Goal
+
+The goal of this repository is to:
+
+- Strengthen DSA fundamentals
+- Improve problem solving ability
+
+---
 
 
-# Concepts Covered
-
-* Array Traversal
-* Element Insertion
-* Element Deletion
-* Prefix Sum Technique
-* HashMap Optimization
-* Kadane's Algorithm
-* Time and Space Complexity Analysis
-
-# Goal
-
-The goal of this repository is to build strong foundations in **Data Structures and Algorithms.
 
