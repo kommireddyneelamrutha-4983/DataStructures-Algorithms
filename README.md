@@ -1,11 +1,8 @@
  Data Structures and Algorithms – Java Practice
 
- HEAD
 This repository contains my implementations of fundamental Data Structures and Algorithms (DSA) problems using Java.
 The goal of this project is to strengthen problem-solving skills.
- HEAD
- 2646898 (updated README)
- e6c4ec8 (updated README)
+
 ```
 
  Topics Covered
@@ -27,7 +24,7 @@ Arrays
 │   ├── Subarray Sum Equals K
 │   └── Pivot Index
 │
-<<<<<<< HEAD
+
 ├── Kadane's Algorithm
 │   └── Maximum Subarray Sum
 │
@@ -40,18 +37,11 @@ Arrays
 
 ```
 ```
-=======
 └── Kadane's Algorithm
     └── Maximum Subarray Sum
-<<<<<<< HEAD
-```
-=======
-    
+```  
 ```    
-
->>>>>>> e6c4ec8 (updated README)
 #  Basic Array Operations
->>>>>>> 2646898 (updated README)
 
 📂 Folder Structure
 
@@ -63,8 +53,7 @@ DataStructures-Algorithms
 ├── Two-pointer-technique
 │
 └── README.md
-
----
+```
 
  Concepts Practiced
 
@@ -76,7 +65,6 @@ DataStructures-Algorithms
 - Kadane's Algorithm
 - Time and Space Complexity Analysis
 
----
 
 Algorithms Included
 
